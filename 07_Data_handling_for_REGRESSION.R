@@ -1,7 +1,7 @@
 #### Introduction ####
-# In this script we create a dataset specifically for the visualisation of regression tasks
+# In this script we create a dataset specifically for regression tasks
 # The idea is twofold
-# (1) rank the rows by dates, so as to be able to plot time series of the number of accidents
+# (1) rank the rows by dates
 # (2) convert all categorical variables (e.g. road type) into dummy variables (1 or 0)
 # In doing so we avoid weigthing problems
 # e.g. we avoid that the model gives too much weight to the variable "road type" simply because this variable ranges from 1 to 6
