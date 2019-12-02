@@ -1,10 +1,10 @@
 rm(list=ls())
 library(tidyverse)
 
-# we load the covariate matrix with dummy variables that was produced in covariate_matrix_with_dummy_variables.R
+# we load the covariate matrix with dummy variables that was produced in 03_Data_handling_for_CLASSIFICATION_SEVERITY.R
 load("./Data/covariate_matrix.RData") # the name of this matrix is X_matrix
 
-# we load the Y_vector that was produced in covariate_matrix_with_dummy_variables.R
+# we load the Y_vector that was produced in 03_Data_handling_for_CLASSIFICATION_SEVERITY.R
 load("./Data/Y_vector_classification.RData") # the name of this vector is Y_vector
 
 
