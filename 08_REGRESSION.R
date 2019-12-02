@@ -19,10 +19,10 @@ library(modelr)
 library(broom)
 library(glmnet)  
 
-# we load the covariate matrix with dummy variables that was produced in REGRESSION_covariate_matrix_with_dummy_variables.R
+# we load the covariate matrix with dummy variables that was produced in 07_Data_handling_for_REGRESSION.R
 load("./Data/covariate_matrix_reg.RData") # the name of this matrix is X_matrix
 
-# we load the Y_vector that was produced in REGRESSION_covariate_matrix_with_dummy_variables.R
+# we load the Y_vector that was produced in 07_Data_handling_for_REGRESSION.R
 load("./Data/Y_vector_regression.RData") # the name of this vector is Y_vector
 
 
