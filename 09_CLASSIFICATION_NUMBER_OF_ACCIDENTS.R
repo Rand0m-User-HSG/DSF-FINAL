@@ -1,10 +1,10 @@
 rm(list=ls())
 library(tidyverse)
 
-# we load the covariate matrix with dummy variables that was produced in covariate_matrix_with_dummy_variables.R
+# we load the covariate matrix with dummy variables that was produced in 07_Data_handling_for_REGRESSION.R
 load("./Data/covariate_matrix_reg.RData") # the name of this matrix is X_matrix
 
-# we load the Y_vector that was produced in covariate_matrix_with_dummy_variables.R
+# we load the Y_vector that was produced in 07_Data_handling_for_REGRESSION.R
 load("./Data/Y_vector_regression.RData") # the name of this vector is Y_vector
 
 # we start by approximating to 19 every number of accidents bigger than it
